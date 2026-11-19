@@ -1,0 +1,156 @@
+Module                  Size  Used by
+rfcomm                106496  4
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+bnep                   36864  2
+ccm                    20480  0
+algif_aead             12288  0
+des3_ede_x86_64        45056  0
+des_generic            12288  0
+libdes                 20480  2 des_generic,des3_ede_x86_64
+algif_skcipher         12288  1
+cmac                   12288  3
+md4                    12288  0
+algif_hash             16384  1
+af_alg                 32768  7 algif_hash,algif_skcipher,algif_aead
+nls_iso8859_1          12288  1
+nls_cp437              16384  1
+vfat                   24576  1
+fat                   114688  1 vfat
+input_leds             12288  0
+intel_rapl_msr         20480  0
+intel_rapl_common      53248  1 intel_rapl_msr
+x86_pkg_temp_thermal    16384  0
+intel_powerclamp       20480  0
+coretemp               16384  0
+uvcvideo              176128  1
+kvm_intel             438272  0
+hid_apple              32768  0
+videobuf2_vmalloc      20480  1 uvcvideo
+hid_generic            12288  0
+uvc                    12288  1 uvcvideo
+iTCO_wdt               16384  0
+kvm                  1400832  1 kvm_intel
+snd_hda_codec_intelhdmi    28672  1
+joydev                 24576  0
+mei_pxp                20480  0
+mei_hdcp               28672  0
+intel_pmc_bxt          16384  1 iTCO_wdt
+videobuf2_memops       16384  1 videobuf2_vmalloc
+snd_hda_codec_hdmi     61440  1 snd_hda_codec_intelhdmi
+iTCO_vendor_support    12288  1 iTCO_wdt
+videobuf2_v4l2         40960  1 uvcvideo
+snd_hda_codec_cs420x    16384  1
+snd_hda_codec_generic   114688  1 snd_hda_codec_cs420x
+videobuf2_common       94208  4 videobuf2_vmalloc,videobuf2_v4l2,uvcvideo,videobuf2_memops
+irqbypass              16384  1 kvm
+applesmc               32768  0
+rapl                   20480  0
+snd_hda_intel          69632  1
+intel_cstate           20480  0
+btusb                  81920  0
+videodev              401408  2 videobuf2_v4l2,uvcvideo
+snd_hda_codec         217088  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_codec_cs420x,snd_hda_intel,snd_hda_codec_intelhdmi
+intel_uncore          266240  0
+btmtk                  32768  1 btusb
+btrtl                  36864  1 btusb
+btbcm                  24576  1 btusb
+snd_hda_core          143360  6 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_codec_cs420x,snd_hda_intel,snd_hda_codec,snd_hda_codec_intelhdmi
+btintel                73728  1 btusb
+i2c_i801               40960  0
+mc                     90112  5 videodev,videobuf2_v4l2,uvcvideo,videobuf2_common
+usbhid                 90112  0
+bcm5974                28672  0
+snd_intel_dspcfg       45056  1 snd_hda_intel
+i2c_smbus              20480  1 i2c_i801
+apple_mfi_fastcharge    16384  0
+pcspkr                 12288  0
+i2c_mux                16384  1 i2c_i801
+snd_intel_sdw_acpi     16384  1 snd_intel_dspcfg
+mei_me                 57344  2
+snd_hwdep              24576  1 snd_hda_codec
+acpi_als               16384  1
+snd_pcm               200704  4 snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_core
+sbs                    20480  0
+mei                   204800  5 mei_hdcp,mei_pxp,mei_me
+industrialio_triggered_buffer    12288  1 acpi_als
+kfifo_buf              12288  1 industrialio_triggered_buffer
+lpc_ich                32768  0
+sbshc                  20480  1 sbs
+evdev                  32768  12
+industrialio          143360  3 industrialio_triggered_buffer,acpi_als,kfifo_buf
+mac_hid                12288  0
+tiny_power_button      12288  0
+ac                     16384  0
+button                 24576  0
+cfg80211             1458176  0
+snd_seq               110592  7 snd_seq_dummy
+snd_seq_device         16384  1 snd_seq
+snd_timer              49152  3 snd_seq,snd_hrtimer,snd_pcm
+snd                   151552  13 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_timer,snd_pcm
+soundcore              16384  1 snd
+vhost_vsock            24576  0
+vmw_vsock_virtio_transport_common    57344  1 vhost_vsock
+vsock                  73728  2 vmw_vsock_virtio_transport_common,vhost_vsock
+vhost_net              36864  0
+vhost                  69632  2 vhost_vsock,vhost_net
+vhost_iotlb            16384  1 vhost
+tap                    36864  1 vhost_net
+hci_vhci               28672  0
+bluetooth            1138688  35 btrtl,btmtk,btintel,btbcm,bnep,btusb,hci_vhci,rfcomm
+rfkill                 45056  4 bluetooth,cfg80211
+ecdh_generic           16384  2 bluetooth
+ecc                    45056  1 ecdh_generic
+vfio_iommu_type1       49152  0
+vfio                   69632  1 vfio_iommu_type1
+iommufd               139264  1 vfio
+uhid                   24576  0
+hid                   270336  4 usbhid,hid_apple,hid_generic,uhid
+dm_mod                229376  0
+uinput                 24576  0
+userio                 16384  0
+ppp_generic            57344  0
+slhc                   16384  1 ppp_generic
+tun                    73728  1 vhost_net
+loop                   49152  0
+nvram                  20480  0
+btrfs                2224128  0
+blake2b_generic        20480  0
+xor                    24576  1 btrfs
+raid6_pq              126976  1 btrfs
+cuse                   16384  0
+fuse                  270336  1 cuse
+ext4                 1159168  1
+crc16                  12288  2 bluetooth,ext4
+mbcache                20480  1 ext4
+jbd2                  200704  1 ext4
+i915                 4825088  14
+sd_mod                 81920  2
+drm_client_lib         12288  1 i915
+drm_buddy              12288  1 i915
+i2c_algo_bit           24576  1 i915
+ttm                   122880  1 i915
+ahci                   57344  2
+intel_gtt              36864  1 i915
+libahci                69632  1 ahci
+agpgart                57344  2 intel_gtt,ttm
+xhci_pci               28672  0
+drm_display_helper    278528  1 i915
+ehci_pci               20480  0
+xhci_hcd              413696  1 xhci_pci
+drm_kms_helper        249856  3 drm_display_helper,drm_client_lib,i915
+polyval_clmulni        12288  0
+ghash_clmulni_intel    12288  0
+libata                503808  2 libahci,ahci
+ehci_hcd              110592  1 ehci_pci
+thunderbolt           581632  0
+aesni_intel            98304  3
+drm                   802816  13 drm_kms_helper,drm_display_helper,drm_buddy,drm_client_lib,i915,ttm
+scsi_mod              286720  2 sd_mod,libata
+scsi_common            16384  3 scsi_mod,sd_mod,libata
+usbcore               446464  10 xhci_hcd,ehci_pci,usbhid,btmtk,bcm5974,apple_mfi_fastcharge,uvcvideo,ehci_hcd,btusb,xhci_pci
+cec                    98304  2 drm_display_helper,i915
+rc_core                73728  1 cec
+usb_common             16384  4 xhci_hcd,usbcore,uvcvideo,ehci_hcd
+video                  86016  1 i915
+wmi                    32768  1 video

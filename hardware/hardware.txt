@@ -1,0 +1,3 @@
+cat /sys/class/dmi/id/product_name -> MacBookAir5,1
+cat /sys/class/dmi/id/product_version -> 1.0
+cat /sys/class/dmi/id/board_name -> Mac-66F35F19FE2A0D05

@@ -1,0 +1,1 @@
+root=UUID=e404c5db-6104-4104-8aed-e83db6009f9f ro loglevel=4 resume=UUID=e404c5db-6104-4104-8aed-e83db6009f9f resume_offset=61161472 mem_sleep_default=deep efi=debug module_blacklist=wl initrd=\EFI\void-stub\initramfs.img

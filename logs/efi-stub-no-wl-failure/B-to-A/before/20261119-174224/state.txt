@@ -1,0 +1,1 @@
+[    0.000000] BIOS-e820: [mem 0x000000008ad64000-0x000000008ad8efff] ACPI data

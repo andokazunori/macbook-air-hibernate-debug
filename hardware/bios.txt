@@ -1,0 +1,2 @@
+cat /sys/class/dmi/id/bios_version -> 429.0.0.0.0
+cat /sys/class/dmi/id/bios_date -> 03/18/2022

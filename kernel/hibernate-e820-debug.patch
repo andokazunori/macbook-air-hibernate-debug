@@ -1,0 +1,23 @@
+--- a/arch/x86/power/hibernate.c
++++ b/arch/x86/power/hibernate.c
+@@ -133,6 +133,7 @@
+ int arch_hibernation_header_restore(void *addr)
+ {
+ 	struct restore_data_record *rdr = addr;
++	u32 current_checksum;
+ 
+ 	if (rdr->magic != RESTORE_MAGIC) {
+ 		pr_crit("Unrecognized hibernate image header format!\n");
+@@ -143,7 +144,11 @@
+ 	jump_address_phys = rdr->jump_address_phys;
+ 	restore_cr3 = rdr->cr3;
+ 
+-	if (rdr->e820_checksum != compute_e820_crc32(e820_table_firmware)) {
++	current_checksum = compute_e820_crc32(e820_table_firmware);
++	pr_info("Hibernate E820: saved CRC32=%08lx, current CRC32=%08x\n",
++		rdr->e820_checksum, current_checksum);
++
++	if (rdr->e820_checksum != current_checksum) {
+ 		pr_crit("Hibernate inconsistent memory map detected!\n");
+ 		return -ENODEV;
+ 	}

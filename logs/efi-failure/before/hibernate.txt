@@ -1,0 +1,14 @@
+[    0.000000] Command line: root=UUID=e404c5db-6104-4104-8aed-e83db6009f9f ro loglevel=4 resume=UUID=e404c5db-6104-4104-8aed-e83db6009f9f resume_offset=61161472 mem_sleep_default=deep efi=debug initrd=\EFI\void-stub\initramfs.img
+[    0.044509] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.044513] PM: hibernation: Registered nosave memory: [mem 0x0008e000-0x0008ffff]
+[    0.044516] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+[    0.044519] PM: hibernation: Registered nosave memory: [mem 0x20000000-0x201fffff]
+[    0.044522] PM: hibernation: Registered nosave memory: [mem 0x40004000-0x40004fff]
+[    0.044525] PM: hibernation: Registered nosave memory: [mem 0x8ad12000-0x8ad52fff]
+[    0.044528] PM: hibernation: Registered nosave memory: [mem 0x8ad65000-0x8ad8efff]
+[    0.044530] PM: hibernation: Registered nosave memory: [mem 0x8ae3b000-0x8ae8efff]
+[    0.044533] PM: hibernation: Registered nosave memory: [mem 0x8aed3000-0x8aefefff]
+[    0.044536] PM: hibernation: Registered nosave memory: [mem 0x8af8f000-0x8affefff]
+[    0.044539] PM: hibernation: Registered nosave memory: [mem 0x8b000000-0xffffffff]
+[    0.053607] Kernel command line: root=UUID=e404c5db-6104-4104-8aed-e83db6009f9f ro loglevel=4 resume=UUID=e404c5db-6104-4104-8aed-e83db6009f9f resume_offset=61161472 mem_sleep_default=deep efi=debug initrd=\EFI\void-stub\initramfs.img
+[    1.656706] PM: Image not found (code -22)

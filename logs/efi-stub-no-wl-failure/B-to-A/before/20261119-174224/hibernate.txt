@@ -1,0 +1,32 @@
+[    0.000000] Command line: root=UUID=e404c5db-6104-4104-8aed-e83db6009f9f ro loglevel=4 resume=UUID=e404c5db-6104-4104-8aed-e83db6009f9f resume_offset=61161472 mem_sleep_default=deep efi=debug module_blacklist=wl initrd=\EFI\void-stub\initramfs.img
+[    0.044569] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.044573] PM: hibernation: Registered nosave memory: [mem 0x0008e000-0x0008ffff]
+[    0.044576] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+[    0.044579] PM: hibernation: Registered nosave memory: [mem 0x20000000-0x201fffff]
+[    0.044581] PM: hibernation: Registered nosave memory: [mem 0x40004000-0x40004fff]
+[    0.044584] PM: hibernation: Registered nosave memory: [mem 0x8ad12000-0x8ad52fff]
+[    0.044587] PM: hibernation: Registered nosave memory: [mem 0x8ad64000-0x8ad8efff]
+[    0.044590] PM: hibernation: Registered nosave memory: [mem 0x8ae3b000-0x8ae8efff]
+[    0.044593] PM: hibernation: Registered nosave memory: [mem 0x8aed3000-0x8aefefff]
+[    0.044596] PM: hibernation: Registered nosave memory: [mem 0x8af8f000-0x8affefff]
+[    0.044599] PM: hibernation: Registered nosave memory: [mem 0x8b000000-0xffffffff]
+[    0.053647] Kernel command line: root=UUID=e404c5db-6104-4104-8aed-e83db6009f9f ro loglevel=4 resume=UUID=e404c5db-6104-4104-8aed-e83db6009f9f resume_offset=61161472 mem_sleep_default=deep efi=debug module_blacklist=wl initrd=\EFI\void-stub\initramfs.img
+[    1.710489] PM: Image signature found, resuming
+[    1.710499] PM: hibernation: resume from hibernation
+[    3.629885] PM: hibernation: Marking nosave pages: [mem 0x00000000-0x00000fff]
+[    3.629896] PM: hibernation: Marking nosave pages: [mem 0x0008e000-0x0008ffff]
+[    3.629901] PM: hibernation: Marking nosave pages: [mem 0x000a0000-0x000fffff]
+[    3.629910] PM: hibernation: Marking nosave pages: [mem 0x20000000-0x201fffff]
+[    3.629936] PM: hibernation: Marking nosave pages: [mem 0x40004000-0x40004fff]
+[    3.629940] PM: hibernation: Marking nosave pages: [mem 0x8ad12000-0x8ad52fff]
+[    3.629947] PM: hibernation: Marking nosave pages: [mem 0x8ad64000-0x8ad8efff]
+[    3.629953] PM: hibernation: Marking nosave pages: [mem 0x8ae3b000-0x8ae8efff]
+[    3.629960] PM: hibernation: Marking nosave pages: [mem 0x8aed3000-0x8aefefff]
+[    3.629966] PM: hibernation: Marking nosave pages: [mem 0x8af8f000-0x8affefff]
+[    3.629974] PM: hibernation: Marking nosave pages: [mem 0x8b000000-0xffffffff]
+[    3.630828] PM: hibernation: Basic memory bitmaps created
+[    3.682507] PM: hibernation: Image mismatch: architecture specific data
+[    3.682571] PM: hibernation: Read 847464 kbytes in 0.01 seconds (84746.40 MB/s)
+[    3.686279] PM: hibernation: Failed to load image, recovering.
+[    3.687810] PM: hibernation: Basic memory bitmaps freed
+[    3.851037] PM: hibernation: resume failed (-1)
