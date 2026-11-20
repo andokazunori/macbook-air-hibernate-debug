@@ -210,3 +210,5 @@ Pending:
 - [ ] Reproduction on the latest unmodified mainline kernel.
 - [ ] Identification of the underlying firmware or EFI cause.
 - [ ] Identification of a safe workaround or fix.
+
+[\[BUG\] x86/hibernate: Intermittent resume failure due to a 4 KiB EFI/E820 memory map change on MacBookAir5,1](https://lore.kernel.org/linux-pm/CAKPbQspktkzF-GH9728aG0mAiQGG9NQxbO15ruvcyaQGTm2y=w@mail.gmail.com/T/#u)
